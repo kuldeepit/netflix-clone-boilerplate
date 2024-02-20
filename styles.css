@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    padding-top: 20px;
+    padding-left: 60px;
+    background-image: url(assets/Title-Image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #141414;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navigation-1 {
+    display: flex;
+  }
+  
+  .navigation-1 > ul,
+  .navigation-2 > ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navigation-1 > ul > li > a,
+  .navigation-2 > ul > li > a {
+    color: black;
+    text-decoration: none;
+    font-weight: 200;
+  }
+  
+  .logo,
+  .profile {
+    height: 30px;
+    width: auto;
+  }
+  
+  .navigation-2 {
+    padding-right: 20px;
+  }
+  
+  .navigation-1 > img {
+    padding-right: 10px;
+  }
+  
+  .title {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    padding: 300px 0 80px 0;
+  }
+  
+  .netflix {
+    height: auto;
+    width: 20px;
+  }
+    
+  .sub-2 {
+    font-size: 150px;
+    font-weight: 900;
+  }
+  
+  .sub-3 {
+    display: flex;
+  }
+  
+  .play,
+  .more-info {
+    display: flex;
+    padding: 10px 20px;
+  }
+  
+  .play {
+    background-color: white;
+    color: black;
+    margin-right: 20px;
+  }
+  
+  .more-info {
+    background-color: gray;
+    color: white;
+  }
+  
+  .topics {
+    display: flex;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: larger;
+    color: white;
+  }
+
+  .sides {
+    display: flex;
+    overflow: auto;
+  }
+  
+  .sides img {
+    width: 250px;
+    height: 146px;
+    object-fit: cover;
+    padding: 15px 30px 40px 0;
+  }
+  
+  .sides::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ranklist::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .ranklist {
+    display: flex;
+    overflow: auto;
+  }
+  
+  .ranklist div {
+    display: flex;
+    padding: 15px 30px 40px 0;
+  }
+  
+  .connn{
+    display: flex;
+    padding: auto;
+    border-radius: 8px;
+    word-spacing: 10px;
+    justify-content: space-between;
+
+  }
