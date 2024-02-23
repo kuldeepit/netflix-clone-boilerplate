@@ -129,5 +129,73 @@
     border-radius: 8px;
     word-spacing: 10px;
     justify-content: space-between;
-
   }
+/* Mobile screen */
+@media screen and (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    padding: 20px 10px 0 10px;
+    background-size: 1500px;
+    background-position-x: -650px;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  /* ------------------------------------------- */
+  /* Navigation bar */
+  nav {
+    align-items: center;
+    justify-content: center;
+  }
+  .navigation-1 > ul,
+  .navigation-2 > ul {
+    display: none;
+    width: 100%;
+  }
+  .navigation-1 > img {
+    padding-right: 0px;
+  }
+  .profile {
+    display: block;
+  }
+  .logo {
+    height: 40px;
+    filter: drop-shadow(3px 0 1px black);
+  }
+  /* ------------------------------------------- */
+  /* Footer */
+  .footer {
+    display: block;
+    padding: 0 10px 0 10px;
+  }
+  .footer .social {
+    justify-content: center;
+  }
+  .footer .social img {
+    height: 30px;
+  }
+  .footer .button {
+    display: none;
+  }
+  /* ------------------------------------------- */
+  /* Titles */
+  .title {
+    text-align: center;
+  }
+  .sub-1,
+  .sub-3 {
+    justify-content: center;
+  }
+  /* ------------------------------------------- */
+  /* Slides */
+  .sides img {
+    padding: 15px 15px 20px 0;
+  }
+  /*rank slide */
+  .ranklist div {
+    padding: 15px 15px 20px 0;
+  }
+}
